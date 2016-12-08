@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+<meta charset="utf-8">
+	<title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="stylep.css">
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script src="jquery.timelinr-0.9.6.js"></script>
+  <script>
+    $(function(){
+      $().timelinr({
+        arrowKeys: 'true'
+      })
+    });
+  </script>
+</head>
+
+
+<body>
+
+<!-- header -->
+<div id="header">
+	<h1><a href="./index.html">
+	<img src="./imgs/logo.png" alt="" class="logo">
+	</a>The Sojourn Diary</h1>
+	<p>イギリス滞在記</p>
+</div>
+
+<!-- nav -->
+<div class="nav">
+<ul>
+	<li><a href="./index.html">Home</a></li>
+	<li><a href="#">Profile</a></li>
+	<li><a href="./manchester.html">Manchester</a></li>
+	<li><a href="./london.html">London</a></li>
+	<li><a href="./whitby.html">Whitby</a></li>
+	<li><a href="./liverpool.html">Liverpool</a></li>
+	<li><a href="./lakedistrict.html">The lake district</a></li>
+	<li><a href="./edinburgh.html">Edinburgh</a></li>
+</ul>
+</div>
+
+<!-- 中身 -->
+<div id="wrap">
+	<h1>Profile</h1>
+<!-- table -->
+<!-- 表を使う場合
+<p>
+<table>
+<tr>
+	<th>1997年 1月</th>
+	<td>誕生</td>
+	<td>生まれてすぐに大阪へ</td>
+</tr>
+<tr>
+	<th>2000年くらい</th>
+	<td></td>
+	<td>大阪弁をしゃべっていた。祖母にもらったプルートの人形が大好きでプルート大好き</td>
+</tr>
+<tr>
+	<th>2003年 4月</th>
+	<td>千葉市立海浜幕張小学校入学</td>
+	<td>千葉に引っ越す。</td>
+</tr>
+<tr>
+	<th>2006年くらい</th>
+	<td>転校</td>
+	<td>小学校3年生くらいの時新しい小学校ができ転校。ガラス張りで小学校とは思えないほど綺麗。学校が近くになったことも嬉しかった。</td>
+</tr>
+<tr>
+	<th></th>
+	<td>↓</td>
+	<td>謎にルアーをつくる部活に所属。地味に楽しかった。</td>
+</tr>
+<tr>
+	<th>2009年 3月</th>
+	<td>千葉市立美浜小学校卒業</td>
+	<td></td>
+</tr>
+<tr>
+	<th>2009年 4月</th>
+	<td>千葉市立打瀬中学校入学</td>
+	<td>制服がなかったり、床が絨毯だったり市立にしては変わった学校。</td>
+</tr>
+<tr>
+	<th></th>
+	<td>↓</td>
+	<td>吹奏楽部でホルンを吹く。飽きっぽい私は結構すぐに飽きてしまった。今思うとよくあんな小さいマウスピースでやっていたなと思う。個人的にはクラリネットがやりたかった。</td>
+</tr>
+<tr>
+	<th>2012年 3月</th>
+	<td>千葉市立打瀬中学校卒業</td>
+	<td>卒業と同時に浦安へ引っ越し</td>
+</tr>
+<tr>
+	<th>2012年 4月</th>
+	<td>県立船橋高校普通科入学</td>
+	<td>先輩である野田さんが総理大臣だった頃に入学式だったため祝辞が届く。<br>総理大臣からの祝辞は何気に嬉しかった。すぐ変わっちゃったけど。</td>
+</tr>
+<tr>
+	<th></th>
+	<td>↓</td>
+	<td>部活は陶芸部。飽きっぽい私だが何気に頑張る。<br>
+	そしてチップとデールに目覚める。この時はチップ寄り。これくらいからカメラ持ち出してショーパレガチ勢へ</td>
+</tr>
+<tr>
+	<th>2015年 3月</th>
+	<td>県立船橋高校普通科卒業</td>
+	<td>年パス代という住民税を払い住民票をゲットした私はパークへ通う日々が始まる。そしてついに、パークでのグリーティング中に神デール君に出会い惚れる。デール君一筋になる。</td>
+</tr>
+<tr>
+	<th>2015年 4月</th>
+	<td>お茶の水女子大学<br>理学部情報科学科入学</td>
+	<td>バイトを始めるが、お金はディズニーに消えていく日々。勉強頑張ります。</td>
+</tr>
+</table>
+</p>
+
+
+	<p>
+		上の年表からもわかるようにディズニー、特にチップとデールが大好きです。最近の趣味は写真を撮ることです。ディズニーのパレードやショー、グリーティングなどでチップとデールのかわいい写真が撮れた時が最高の幸せです。
+	</p>
+</div>
+-->
+
+<!-- プラグインを使う場合 -->
+<div id="profile"> 
+  
+  <div id="timeline">
+    <ul id="dates">
+      <li><a href="#1997" class="selected">1997</a></li>
+      <li><a href="#2003">2003</a></li>
+      <li><a href="#2006">2006</a></li>
+      <li><a href="#2009">2009</a></li>
+      <li><a href="#2012">2012</a></li>
+      <li><a href="#2015">2015</a></li>
+    </ul>
+    <ul id="issues">
+      <li id="1997" class="selected">
+        <img src="imgs/osaka.jpg" width="256" height="256" />
+        <h1>1997</h1>
+        <p>1997年1月24日に生まれる。生まれてすぐに大阪へ行き、幼稚園まで大阪に住む。幼稚園がキリスト系だったことで謎に祈る日とかあったような…。大阪時代後期には大阪弁を喋っていた。今では全くもってしゃべれません。</p>
+      </li>
+      <li id="2003">
+        <img src="imgs/baytown.jpg" width="256" height="256" />
+        <h1>2003</h1>
+        <p>小学校入学に合わせて千葉の幕張にお引越し。近くに幕張メッセやマリンスタジアム(今はZOZOスタジアム?)もあったりして快適な街。電線も地中に埋まっていたり、ゴミをダストボックスに入れることによってゴミ処理場に届くのでゴミ収集車が走っていないなどすごかった。道路もタイル張りだったりして本当に綺麗のところだったなぁと思います。</p>
+      </li>
+      <li id="2006">
+        <img src="imgs/yellow.jpg" width="256" height="256" />
+        <h1>2006</h1>
+        <p>近くに新しい学校ができたことにより転校。徒歩5分!また、全面ガラス張りだったりエレベーターがあったり小学校としてはもったいないくらい。あとは教室の廊下側に壁がなく、オープンスペース制。5年生くらいの時に学校にストレッチマンが来た(NHKの教育番組に出てくる人)。低学年さんたちは一緒にストレッチをしてました。</p>
+      </li>
+      <li id="2009">
+        <img src="imgs/horn.jpg" width="256" height="256" />
+        <h1>2009</h1>
+        <p>小学校を卒業し中学校へ。ここも変わった学校。まず、制服がなく私服で教室移動制。だからロッカーも教室にはなくホームベースと呼ばれる教室とは違う場所に設置。チャイムが鳴らない、大学みたいな感じ。あとは床が絨毯だっり。とにかく変わった中学校でした。ものすごいマンモス校でJ組まで存在する学年もありました。また、部活は吹奏楽部に所属しホルンを吹いていました。</p>
+      </li>
+      <li id="2012">
+        <img src="imgs/funa.jpg" width="256" height="256" />
+        <h1>2012</h1>
+        <p>中学校を卒業し、千葉県立船橋高等学校の普通科へ入学。当時総理だった野田さんの出身校だったこともあり、総理から入学の祝辞をいただけました。結構嬉しかったです。すぐ変わっちゃったけど。部活は陶芸部に所属していました。部員が少なかったこともあり1年から部長となってしまい大変でした。でも、陶芸はすごく楽しくてまたやりたいなと思っております。ちなみにこの時期からチップとデールに目覚め始めました。</p>
+      </li>
+      <li id="2015">
+        <img src="imgs/glass.jpg" width="256" height="256" />
+        <h1>2015</h1>
+        <p>高校を無事に卒業しお茶の水女子大学理学部情報科学科へ入学。同時にディズニーランド、ディズニーシーに通う日々も始まる。と言っても1年の後期は全くいけない日々が続いてしまったが。無事に1年後期を乗り越えて現在2年生です。目が悪くなる日々…</p>
+      </li>
+    </ul>
+    <div id="grad_left"></div>
+    <div id="grad_right"></div>
+    <a href="#" id="next">+</a>
+    <a href="#" id="prev">-</a>
+  </div><!-- id timeline -->
+</div><!-- id profile -->
+</div><!-- id wrap -->
+
+
+
+<div id="footer">
+	<div class="text">
+		<p>Copyright@EmiMorikawa  All Rights Reserved.</p>
+		<p>18/10/2016最終更新</p>
+	</div>
+</div>
+
+
+</body>
+</html>
